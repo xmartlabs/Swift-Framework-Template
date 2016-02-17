@@ -139,7 +139,7 @@ for fileURL in frameworkDirectories.reverse() {
   fileURL.renameIfNeeded()
 }
 
-print(shell("carthage", "update").output)
+print(shell("carthage", "update", "--platform", "iOS").output)
 print(shell("git", "init").output)
 print(shell("git", "add", ".").output)
 print(shell("git", "commit", "-m", "'Initial commit'").output)
