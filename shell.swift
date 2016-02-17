@@ -99,9 +99,7 @@ func prompt(message: String, defaultValue: String) -> String {
   return line == nil || line == "" ? defaultValue : line!
 }
 
-printInfo("Script File Directory: \(currentScriptPathURL.path)")
-
-print("\n\nHello! My name is SwiftFrameworkTemplate. Let's go over some question to create your framework base project!")
+print("\nLet's go over some question to create your framework base project!")
 
 frameworkName = prompt("Framework name", defaultValue: frameworkName)
 
@@ -126,7 +124,7 @@ do {
 // rename files and update content
 let enumerator = fileManager.enumeratorAtURL(newFrameworkFolderURL, includingPropertiesForKeys: [NSURLNameKey, NSURLIsDirectoryKey], options: [], errorHandler: nil)!
 var frameworkDirectories = [NSURL]()
-print("Creating \(frameworkName) ...")
+print("\nCreating \(frameworkName) ...")
 while let fileURL = enumerator.nextObject() as? NSURL {
     guard !ignoredFiles.contains(fileURL.fileName) else { continue }
     if fileURL.isDirectory {

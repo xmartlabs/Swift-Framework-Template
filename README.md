@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/xmartlabs/Swift-Framework-Template.svg?branch=master)](https://travis-ci.org/xmartlabs/Swift-Framework-Template)
 
-Swift script to easily create Swift frameworks! Speed up your iOS open source library creation time!
+Swift script to easily create Swift frameworks! Speed up your iOS OSS library creation time!
 
 At Xmartlabs we've been doing Open Source since our beginning and we ❤️ it. Creating a successful open source project involves many tasks, obviously the most important is to have a well designed problem specific library that is worth using and helps the community to save a lot of development time.
 
@@ -17,3 +17,26 @@ There are many many other tedious tasks to do before getting ready to start work
 * Provide cocoapods support by creating a podspec file.
 
 Apart of saving a lot of time it's important for us to be consistent on how our team creates open source libraries regardless who does it.
+
+
+#### Let's see how *Swift Framework Template* comes in handy when we are about to start a new iOS OSS project.
+
+*Swift Framework Template* is nothing else than a shell script written in swift that asks for library data information to rename folders and replace internal files content of a library template project. For further info look into the [script](shell.swift) details.
+
+##### Usage
+
+Clone the repository:
+```shell
+ git clone git@github.com:xmartlabs/Swift-Framework-Template.git
+ ```
+Run `shell.swift` script from there:
+
+```swift
+swift Swift-Framework-Template/shell.swift
+```
+
+Answer the questions:
+
+ <img src="readme-image.png" width="500"/>
+
+We are done! Now start coding your library! 🍻🍻
