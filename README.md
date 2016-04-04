@@ -32,7 +32,7 @@ Clone the repository:
 Run `shell.swift` script from there:
 
 ```swift
-swift Swift-Framework-Template/shell.swift
+swift -target x86_64-apple-macosx10.11 Swift-Framework-Template/shell.swift
 ```
 
 Answer the questions:
