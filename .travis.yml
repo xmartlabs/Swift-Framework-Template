@@ -5,7 +5,7 @@ before_install:
 - brew update
 - brew outdated carthage || brew upgrade carthage
 - if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
-- cd Framework-iOS && carthage update --platform iOS
+- cd Framework-iOS/XLProductName && carthage update --platform iOS
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 
 script:
