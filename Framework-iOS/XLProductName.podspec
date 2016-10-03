@@ -9,7 +9,10 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/XLUserName'
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
-  s.ios.source_files = 'Sources/**/*'
+  s.ios.source_files = 'XLProductName/Sources/**/*.{swift}'
+  # s.resource_bundles = {
+  #   'XLProductName' => ['XLProductName/Sources/**/*.xib']
+  # }
   # s.ios.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'Eureka', '~> 1.0'
 end
