@@ -27,8 +27,8 @@ import XLProductName
 
 ## Requirements
 
-* iOS 8.0+
-* Xcode 7.2+
+* iOS 9.0+
+* Xcode 8.0+
 
 ## Getting involved
 
