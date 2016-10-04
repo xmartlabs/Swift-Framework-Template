@@ -144,6 +144,4 @@ print(shell(args: "git", "init").output)
 print(shell(args: "git", "add", ".").output)
 print(shell(args: "git", "commit", "-m", "'Initial commit'").output)
 print(shell(args: "git", "remote", "add", "origin", "git@github.com:\(userName)/\(frameworkName).git").output)
-print(shell(args: "open", "Example/\(frameworkName).xcworkspace").output)
-
-
+print(shell(args: "open", "\(frameworkName).xcworkspace").output)
