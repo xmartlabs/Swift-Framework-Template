@@ -26,9 +26,11 @@ Apart of saving a lot of time it's important for us to be consistent on how our 
 ##### Usage
 
 Clone the repository:
+
 ```shell
- git clone git@github.com:xmartlabs/Swift-Framework-Template.git
- ```
+git clone git@github.com:xmartlabs/Swift-Framework-Template.git
+```
+
 Run `shell.swift` script from there:
 
 ```swift
@@ -37,6 +39,6 @@ swift -target x86_64-apple-macosx10.12 Swift-Framework-Template/shell.swift
 
 Answer the questions:
 
- <img src="readme-image.png" width="500"/>
+<img src="readme-image.png" width="500"/>
 
 We are done! Now start coding your library! 🍻🍻

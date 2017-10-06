@@ -21,8 +21,7 @@ XLProductName is a library to .......
 
 ```swift
 import XLProductName
-..
-.
+// ...
 ```
 
 ## Requirements
@@ -34,21 +33,21 @@ import XLProductName
 
 * If you **want to contribute** please feel free to **submit pull requests**.
 * If you **have a feature request** please **open an issue**.
-* If you **found a bug** or **need help** please **check older issues, [FAQ](#faq) and threads on [StackOverflow](http://stackoverflow.com/questions/tagged/XLProductName) (Tag 'XLProductName') before submitting an issue.**.
+* If you **found a bug** or **need help** please **check older issues, [FAQ](#faq) and threads on [StackOverflow](http://stackoverflow.com/questions/tagged/XLProductName) (Tag 'XLProductName') before submitting an issue**.
 
 Before contribute check the [CONTRIBUTING](https://github.com/XLUserName/XLProductName/blob/master/CONTRIBUTING.md) file for more info.
 
-If you use **XLProductName** in your app We would love to hear about it! Drop us a line on [twitter](https://twitter.com/XLUserName).
+If you use **XLProductName** in your app We would love to hear about it! Drop us a line on [Twitter](https://twitter.com/XLUserName).
 
 ## Examples
 
-Follow these 3 steps to run Example project: Clone XLProductName repository, open XLProductName workspace and run the *Example* project.
+Follow these 3 steps to run Example project: clone XLProductName repository, open XLProductName workspace and run the *Example* project.
 
 You can also experiment and learn with the *XLProductName Playground* which is contained in *XLProductName.workspace*.
 
 ## Installation
 
-#### CocoaPods
+### CocoaPods
 
 [CocoaPods](https://cocoapods.org/) is a dependency manager for Cocoa projects.
 
@@ -58,7 +57,7 @@ To install XLProductName, simply add the following line to your Podfile:
 pod 'XLProductName', '~> 1.0'
 ```
 
-#### Carthage
+### Carthage
 
 [Carthage](https://github.com/Carthage/Carthage) is a simple, decentralized dependency manager for Cocoa.
 
@@ -74,10 +73,10 @@ github "XLUserName/XLProductName" ~> 1.0
 
 ## FAQ
 
-#### How to .....
+### How to .....
 
 You can do it by conforming to .....
 
-# Change Log
+# Changelog
 
-This can be found in the [CHANGELOG.md](CHANGELOG.md) file.
+See [CHANGELOG](CHANGELOG.md).
