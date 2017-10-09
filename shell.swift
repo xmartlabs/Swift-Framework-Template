@@ -75,7 +75,7 @@ func printErrorAndExit<T>(message: T) {
 func checkThatFrameworkForlderCanBeCreated(frameworkURL: NSURL){
     var isDirectory: ObjCBool = true
     if fileManager.fileExists(atPath: frameworkURL.path!, isDirectory: &isDirectory){
-        printErrorAndExit(message: "\(frameworkName) \(isDirectory.boolValue ? "folder already" : "file") exists in \(runScriptPathURL.path) directory, please delete it and try again")
+        printErrorAndExit(message: "\(frameworkName) \(isDirectory.boolValue ? "folder already" : "file") exists in \(String(describing:runScriptPathURL.path)) directory, please delete it and try again")
     }
 }
 
@@ -89,7 +89,7 @@ func shell(args: String...) -> (output: String, exitCode: Int32) {
     task.launch()
     task.waitUntilExit()
     let data = pipe.fileHandleForReading.readDataToEndOfFile()
-    let output = NSString(data: data, encoding: String.Encoding.utf8.rawValue) as? String ?? ""
+    let output = String(data: data, encoding: String.Encoding.utf8) ?? ""
     return (output, task.terminationStatus)
 }
 
