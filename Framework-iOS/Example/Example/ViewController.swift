@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Example
 //
-//  Copyright © 2016 XLOrganizationName. All rights reserved.
+//  Copyright © 2020 XLOrganizationName. All rights reserved.
 //
 
 import UIKit
