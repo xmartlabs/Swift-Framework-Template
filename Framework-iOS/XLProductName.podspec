@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author           = { "XLAuthorName" => "XLAuthorEmail" }
   s.source           = { git: "https://github.com/XLUserName/XLProductName.git", tag: s.version.to_s }
   s.social_media_url = 'https://twitter.com/XLUserName'
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
   s.requires_arc = true
   s.ios.source_files = 'XLProductName/Sources/**/*.{swift}'
   # s.resource_bundles = {

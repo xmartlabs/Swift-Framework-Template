@@ -2,7 +2,7 @@
 //  Playground.playground
 //  XLProductName
 //
-//  Copyright © 2016 XLOrganizationName. All rights reserved.
+//  Copyright © 2020 XLOrganizationName. All rights reserved.
 //
 
 //: Playground - noun: a place where people can play
