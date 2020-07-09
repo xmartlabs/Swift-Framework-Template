@@ -8,6 +8,7 @@ before_install:
 - brew outdated carthage || brew upgrade carthage
 - carthage update --platform iOS
 
+
 script:
 - xcodebuild clean build -project XLProductName.xcodeproj -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO test | xcpretty -c
 - xcodebuild test -project XLProductName.xcodeproj -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO test | xcpretty -c
