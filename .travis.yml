@@ -1,7 +1,7 @@
 language: swift
-osx_image: xcode11.6
+osx_image: xcode12
 env:
-- DESTINATION="OS=13.0,name=iPhone 11" SCHEME="XLProductName" SDK=iphonesimulator
+- DESTINATION="OS=14.0,name=iPhone 11" SCHEME="XLProductName" SDK=iphonesimulator
 
 before_install:
 - brew update
