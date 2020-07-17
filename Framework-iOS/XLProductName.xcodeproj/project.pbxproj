@@ -31,7 +31,6 @@
 		28F828871C494B2C00330CF4 /* XLProductNameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLProductNameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F8288E1C494B2C00330CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28F828991C494B4200330CF4 /* iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOS.swift; sourceTree = "<group>"; };
-		28F8289B1C494BF100330CF4 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Playground.playground; path = Example/Playground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +55,6 @@
 		28F828731C494B2C00330CF4 = {
 			isa = PBXGroup;
 			children = (
-				28F8289B1C494BF100330CF4 /* Playground.playground */,
 				28F828971C494B4200330CF4 /* Sources */,
 				28F8288B1C494B2C00330CF4 /* Tests */,
 				28F8287E1C494B2C00330CF4 /* Products */,
